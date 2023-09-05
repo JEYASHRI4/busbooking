@@ -1,0 +1,73 @@
+/* Search.css */
+
+#border {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+ /* Getdetails.css */
+
+/* Style for each list item */
+li {
+  background-color: #f2f2f2; /* Default background color */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/* Style for odd list items with a different background color */
+li:nth-child(odd) {
+  background-color: #007bff; /* Change this to your desired color */
+  color: #fff; /* Text color for contrast */
+}
+
+/* Style for bus number */
+label b {
+  color: #007bff;
+}
+
+/* Style for the link */
+p a {
+  text-decoration: none;
+  color: #007bff;
+  margin-left: 10px;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+ 
+ 

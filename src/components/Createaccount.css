@@ -1,0 +1,47 @@
+/* Createaccount.css */
+
+#border {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  #border2 {
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

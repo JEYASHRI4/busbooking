@@ -1,0 +1,53 @@
+/* HomePage.css */
+
+.navbar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0 20px;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .nav-item a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .nav-item:hover {
+    transform: translateY(-2px);
+  }
+  
+  .nav-item:hover a {
+    color: #ff9800; /* Change color on hover */
+  }
+  
+  .nav-item:hover a::before {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  
